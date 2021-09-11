@@ -33,7 +33,7 @@ KeyEvent.VK_NUMPAD9,107,20,65,83,68,70,71,72,74,75,76,59,222,10,KeyEvent.VK_NUMP
     @Override
     public void keyPressed(KeyEvent ke) {
         int keyCode = ke.getKeyCode();
-        System.out.println(keyCode);
+        System.out.println(ke.getKeyChar() + " " + keyCode);
             for(int i = 0; i < 103; i++){                
                      g.fr.requestFocus();
                               
